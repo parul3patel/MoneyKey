@@ -1,0 +1,542 @@
+2020-02-26 13:30:06,885 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 13:30:06,886 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 13:30:06,886 INFO  [WebUtil] here 
+2020-02-26 13:30:06,886 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 13:30:06,886 INFO  [CommonUtil] device name set to : web 
+2020-02-26 13:30:06,886 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 13:30:06,886 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 13:30:06,886 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 13:30:06,886 INFO  [WebUtil] here1 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 13:30:12,279 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 13:30:12,279 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 13:30:12,294 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 13:30:12,294 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 13:30:13,390 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 13:30:13,390 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 13:30:13,395 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 13:30:13,396 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 13:30:13,396 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 13:30:13,399 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 13:30:13,399 WARN  [CommonUtil] null not found in file. 
+2020-02-26 13:30:13,400 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 13:30:13,400 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 13:30:13,400 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 13:30:13,401 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 13:30:13,404 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 13:30:13,405 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 13:30:13,405 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 13:30:14,405 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 13:30:14,405 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:30:14,457 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:30:14,457 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 13:30:14,468 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 13:30:26,094 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 13:30:26,094 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 13:30:28,095 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 13:30:28,395 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 13:30:28,395 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 13:30:28,396 INFO  [CommonSteps] Start : value entered into field 
+2020-02-26 13:30:28,897 INFO  [CommonUtil] Start :: getInputText 
+2020-02-26 13:30:28,897 INFO  [CommonUtil] End :: getInputText 
+2020-02-26 13:30:28,897 INFO  [CommonSteps] valuetester 
+2020-02-26 13:30:28,897 INFO  [CommonUtil] fetching value starts for [CreateAccount] >> firstNameText 
+2020-02-26 13:30:28,899 INFO  [CommonUtil] fetching value ends for [CreateAccount] >> firstNameText 
+2020-02-26 13:30:28,899 INFO  [CommonProcessor] enterValIntoField starts.. 
+2020-02-26 13:30:28,899 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:30:28,940 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:30:28,941 INFO  [CommonProcessor] wait=org.openqa.selenium.support.ui.WebDriverWait@76ba13c 
+2020-02-26 13:30:28,971 INFO  [CommonProcessor] we=[[ChromeDriver: chrome on XP (622317b40d1e8d923f81373912ceef60)] -> xpath: //*[@name="firstName"]] 
+2020-02-26 13:30:29,102 INFO  [CommonProcessor] enterValIntoField is done 
+2020-02-26 13:30:29,102 INFO  [CommonProcessor] enterValIntoField ends.. 
+2020-02-26 13:30:29,102 INFO  [CommonSteps] End : value entered into field 
+2020-02-26 13:30:29,102 INFO  [CommonSteps] test5 
+2020-02-26 13:32:15,253 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 13:32:15,254 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 13:32:15,254 INFO  [WebUtil] here 
+2020-02-26 13:32:15,254 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 13:32:15,254 INFO  [CommonUtil] device name set to : web 
+2020-02-26 13:32:15,254 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 13:32:15,254 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 13:32:15,254 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 13:32:15,254 INFO  [WebUtil] here1 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 13:32:20,691 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 13:32:20,691 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 13:32:20,707 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 13:32:20,707 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 13:32:24,914 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 13:32:24,914 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 13:32:24,919 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 13:32:24,920 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 13:32:24,920 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 13:32:24,921 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 13:32:24,922 WARN  [CommonUtil] null not found in file. 
+2020-02-26 13:32:24,922 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 13:32:24,922 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 13:32:24,922 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 13:32:24,922 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 13:32:24,923 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 13:32:24,924 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 13:32:24,924 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 13:32:25,925 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 13:32:25,925 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:32:25,963 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:32:25,963 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 13:32:25,974 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 13:32:36,855 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 13:32:36,855 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 13:32:38,856 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 13:32:39,157 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 13:32:39,157 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 13:32:39,159 INFO  [CommonSteps] Start : value entered into field 
+2020-02-26 13:32:39,659 INFO  [CommonUtil] Start :: getInputText 
+2020-02-26 13:32:39,659 INFO  [CommonUtil] End :: getInputText 
+2020-02-26 13:32:39,659 INFO  [CommonSteps] valuetester 
+2020-02-26 13:32:39,660 INFO  [CommonUtil] fetching value starts for [CreateAccount] >> firstNameText 
+2020-02-26 13:32:39,662 INFO  [CommonUtil] fetching value ends for [CreateAccount] >> firstNameText 
+2020-02-26 13:32:39,662 INFO  [CommonProcessor] enterValIntoField starts.. 
+2020-02-26 13:32:39,662 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:32:39,694 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:32:39,694 INFO  [CommonProcessor] wait=org.openqa.selenium.support.ui.WebDriverWait@76ba13c 
+2020-02-26 13:32:39,721 INFO  [CommonProcessor] we=[[ChromeDriver: chrome on XP (d8d1215545b10c39b56d4009056b40d8)] -> xpath: //*[@name="firstName"]] 
+2020-02-26 13:32:39,847 INFO  [CommonProcessor] enterValIntoField is done 
+2020-02-26 13:32:39,847 INFO  [CommonProcessor] enterValIntoField ends.. 
+2020-02-26 13:32:39,847 INFO  [CommonSteps] End : value entered into field 
+2020-02-26 13:32:39,847 INFO  [CommonSteps] test5 
+2020-02-26 13:32:39,847 INFO  [CommonUtil] here 
+2020-02-26 13:32:39,847 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 13:32:39,848 INFO  [CommonUtil] files[Ljava.io.File;@410ae9a3 
+2020-02-26 13:32:39,848 ERROR [CommonSteps] logOut -->null 
+2020-02-26 13:35:03,774 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 13:35:03,774 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 13:35:03,774 INFO  [WebUtil] here 
+2020-02-26 13:35:03,775 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 13:35:03,775 INFO  [CommonUtil] device name set to : web 
+2020-02-26 13:35:03,775 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 13:35:03,775 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 13:35:03,775 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 13:35:03,775 INFO  [WebUtil] here1 
+2020-02-26 13:35:09,224 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 13:35:09,225 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 13:35:09,225 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 13:35:09,240 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 13:35:09,241 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 13:35:10,529 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 13:35:10,529 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 13:35:10,538 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 13:35:10,538 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 13:35:10,539 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 13:35:10,541 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 13:35:10,541 WARN  [CommonUtil] null not found in file. 
+2020-02-26 13:35:10,542 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 13:35:10,542 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 13:35:10,542 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 13:35:10,542 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 13:35:10,545 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 13:35:10,545 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 13:35:10,545 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 13:35:11,546 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 13:35:11,546 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:35:11,592 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:35:11,592 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 13:35:11,601 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 13:35:21,058 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 13:35:21,058 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 13:35:23,058 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 13:35:23,359 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 13:35:23,359 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 13:35:23,359 INFO  [CommonSteps] Start : value entered into field 
+2020-02-26 13:35:23,859 INFO  [CommonUtil] Start :: getInputText 
+2020-02-26 13:35:23,859 INFO  [CommonUtil] End :: getInputText 
+2020-02-26 13:35:23,859 INFO  [CommonSteps] valuetester 
+2020-02-26 13:35:23,859 INFO  [CommonUtil] fetching value starts for [CreateAccount] >> firstNameText 
+2020-02-26 13:35:23,860 INFO  [CommonUtil] fetching value ends for [CreateAccount] >> firstNameText 
+2020-02-26 13:35:23,861 INFO  [CommonProcessor] enterValIntoField starts.. 
+2020-02-26 13:35:23,861 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:35:23,880 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:35:23,880 INFO  [CommonProcessor] wait=org.openqa.selenium.support.ui.WebDriverWait@76ba13c 
+2020-02-26 13:35:23,912 INFO  [CommonProcessor] we=[[ChromeDriver: chrome on XP (581ef643b0269bcd32cdaf12fc32ade8)] -> xpath: //*[@name="firstName"]] 
+2020-02-26 13:35:24,066 INFO  [CommonProcessor] enterValIntoField is done 
+2020-02-26 13:35:24,066 INFO  [CommonProcessor] enterValIntoField ends.. 
+2020-02-26 13:35:24,066 INFO  [CommonSteps] End : value entered into field 
+2020-02-26 13:35:24,067 INFO  [CommonSteps] test5 
+2020-02-26 13:35:24,067 INFO  [CommonUtil] here 
+2020-02-26 13:35:24,067 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 13:35:24,067 INFO  [CommonUtil] files[Ljava.io.File;@410ae9a3 
+2020-02-26 13:35:24,067 ERROR [CommonSteps] logOut -->null 
+2020-02-26 13:41:28,624 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 13:41:28,625 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 13:41:28,625 INFO  [WebUtil] here 
+2020-02-26 13:41:28,625 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 13:41:28,625 INFO  [CommonUtil] device name set to : web 
+2020-02-26 13:41:28,625 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 13:41:28,625 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 13:41:28,625 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 13:41:28,625 INFO  [WebUtil] here1 
+2020-02-26 13:41:34,196 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 13:41:34,197 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 13:41:34,197 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 13:41:34,213 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 13:41:34,213 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 13:41:36,996 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 13:41:36,996 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 13:41:37,001 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 13:41:37,002 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 13:41:37,002 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 13:41:37,003 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 13:41:37,004 WARN  [CommonUtil] null not found in file. 
+2020-02-26 13:41:37,004 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 13:41:37,004 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 13:41:37,004 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 13:41:37,004 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 13:41:37,009 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 13:41:37,010 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 13:41:37,010 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 13:41:38,011 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 13:41:38,011 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:41:38,075 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:41:38,076 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 13:41:38,086 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 13:41:48,365 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 13:41:48,365 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 13:41:50,367 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 13:41:50,667 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 13:41:50,667 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 13:41:50,668 INFO  [CommonSteps] Start : value entered into field 
+2020-02-26 13:41:51,168 INFO  [CommonUtil] Start :: getInputText 
+2020-02-26 13:41:51,168 INFO  [CommonUtil] End :: getInputText 
+2020-02-26 13:41:51,168 INFO  [CommonSteps] valuetester 
+2020-02-26 13:41:51,168 INFO  [CommonUtil] fetching value starts for [CreateAccount] >> firstNameText 
+2020-02-26 13:41:51,171 INFO  [CommonUtil] fetching value ends for [CreateAccount] >> firstNameText 
+2020-02-26 13:41:51,171 INFO  [CommonProcessor] enterValIntoField starts.. 
+2020-02-26 13:41:51,171 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:41:51,208 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:41:51,208 INFO  [CommonProcessor] wait=org.openqa.selenium.support.ui.WebDriverWait@76ba13c 
+2020-02-26 13:41:51,243 INFO  [CommonProcessor] we=[[ChromeDriver: chrome on XP (0bd43dbc78ab613e10b367e44a407449)] -> xpath: //*[@name="firstName"]] 
+2020-02-26 13:41:51,376 INFO  [CommonProcessor] enterValIntoField is done 
+2020-02-26 13:41:51,376 INFO  [CommonProcessor] enterValIntoField ends.. 
+2020-02-26 13:41:51,376 INFO  [CommonSteps] End : value entered into field 
+2020-02-26 13:41:51,376 INFO  [CommonSteps] test5 
+2020-02-26 13:41:51,376 INFO  [CommonUtil] here 
+2020-02-26 13:41:51,376 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 13:41:51,377 INFO  [CommonUtil] files[Ljava.io.File;@410ae9a3 
+2020-02-26 13:41:51,377 ERROR [CommonSteps] logOut -->null 
+2020-02-26 13:47:56,848 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 13:47:56,849 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 13:47:56,849 INFO  [WebUtil] here 
+2020-02-26 13:47:56,849 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 13:47:56,849 INFO  [CommonUtil] device name set to : web 
+2020-02-26 13:47:56,849 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 13:47:56,849 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 13:47:56,849 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 13:47:56,849 INFO  [WebUtil] here1 
+2020-02-26 13:48:02,743 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 13:48:02,744 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 13:48:02,744 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 13:48:02,759 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 13:48:02,759 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 13:48:07,043 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 13:48:07,043 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 13:48:07,048 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 13:48:07,049 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 13:48:07,049 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 13:48:07,051 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 13:48:07,051 WARN  [CommonUtil] null not found in file. 
+2020-02-26 13:48:07,053 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 13:48:07,055 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 13:48:07,056 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 13:48:07,056 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 13:48:07,060 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 13:48:07,060 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 13:48:07,060 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 13:48:08,060 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 13:48:08,060 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:48:08,095 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:48:08,095 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 13:48:08,107 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 13:48:17,836 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 13:48:17,836 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 13:48:19,838 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 13:48:20,138 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 13:48:20,138 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 13:48:20,139 INFO  [CommonSteps] Start : value entered into field 
+2020-02-26 13:48:20,639 INFO  [CommonUtil] Start :: getInputText 
+2020-02-26 13:48:20,639 INFO  [CommonUtil] End :: getInputText 
+2020-02-26 13:48:20,639 INFO  [CommonSteps] valuetester 
+2020-02-26 13:48:20,639 INFO  [CommonUtil] fetching value starts for [CreateAccount] >> firstNameText 
+2020-02-26 13:48:20,642 INFO  [CommonUtil] fetching value ends for [CreateAccount] >> firstNameText 
+2020-02-26 13:48:20,642 INFO  [CommonProcessor] enterValIntoField starts.. 
+2020-02-26 13:48:20,642 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:48:20,685 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:48:20,685 INFO  [CommonProcessor] wait=org.openqa.selenium.support.ui.WebDriverWait@76ba13c 
+2020-02-26 13:48:20,744 INFO  [CommonProcessor] we=[[ChromeDriver: chrome on XP (45fd1508e630f80f1068e25fe6ae8e1c)] -> xpath: //*[@name="firstName"]] 
+2020-02-26 13:48:20,895 INFO  [CommonProcessor] enterValIntoField is done 
+2020-02-26 13:48:20,895 INFO  [CommonProcessor] enterValIntoField ends.. 
+2020-02-26 13:48:20,895 INFO  [CommonSteps] End : value entered into field 
+2020-02-26 13:48:20,896 INFO  [CommonSteps] test5 
+2020-02-26 13:48:20,896 INFO  [CommonUtil] here 
+2020-02-26 13:48:20,896 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 13:48:20,897 INFO  [CommonUtil] E:\TestAssignment-master\TestAssignment-master\TestAssignment\output\src 
+2020-02-26 13:52:51,718 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 13:52:51,719 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 13:52:51,719 INFO  [WebUtil] here 
+2020-02-26 13:52:51,719 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 13:52:51,719 INFO  [CommonUtil] device name set to : web 
+2020-02-26 13:52:51,719 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 13:52:51,719 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 13:52:51,719 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 13:52:51,719 INFO  [WebUtil] here1 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 13:52:57,721 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 13:52:57,721 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 13:52:57,737 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 13:52:57,737 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 13:53:01,743 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 13:53:01,743 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 13:53:01,748 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 13:53:01,748 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 13:53:01,748 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 13:53:01,750 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 13:53:01,750 WARN  [CommonUtil] null not found in file. 
+2020-02-26 13:53:01,750 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 13:53:01,750 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 13:53:01,750 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 13:53:01,750 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 13:53:01,754 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 13:53:01,754 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 13:53:01,754 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 13:53:02,755 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 13:53:02,755 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 13:53:02,797 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 13:53:02,797 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 13:53:02,807 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 13:53:15,456 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 13:53:15,456 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 13:53:17,457 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 13:53:17,757 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 13:53:17,757 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 13:53:17,758 INFO  [CommonSteps] test5 
+2020-02-26 13:53:17,758 INFO  [CommonUtil] here 
+2020-02-26 13:53:17,758 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 13:53:17,759 INFO  [CommonUtil] files[Ljava.io.File;@76ba13c 
+2020-02-26 13:53:17,759 ERROR [CommonSteps] logOut -->null 
+2020-02-26 14:04:18,744 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 14:04:18,767 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 14:04:18,767 INFO  [WebUtil] here 
+2020-02-26 14:04:18,767 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 14:04:18,767 INFO  [CommonUtil] device name set to : web 
+2020-02-26 14:04:18,767 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 14:04:18,767 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 14:04:18,767 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 14:04:18,767 INFO  [WebUtil] here1 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 14:04:24,293 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 14:04:24,293 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 14:04:24,314 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 14:04:24,314 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 14:04:25,601 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 14:04:25,601 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 14:04:25,608 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 14:04:25,609 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 14:04:25,609 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 14:04:25,611 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 14:04:25,611 WARN  [CommonUtil] null not found in file. 
+2020-02-26 14:04:25,611 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 14:04:25,612 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 14:04:25,612 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 14:04:25,612 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 14:04:25,619 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 14:04:25,619 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 14:04:25,619 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 14:04:26,621 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 14:04:26,621 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 14:04:26,684 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 14:04:26,684 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 14:04:26,698 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 14:04:36,296 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 14:04:36,296 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 14:04:38,297 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 14:04:38,597 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 14:04:38,597 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 14:04:38,598 INFO  [CommonSteps] test5 
+2020-02-26 14:04:38,598 INFO  [CommonUtil] here 
+2020-02-26 14:04:38,598 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 14:04:38,599 INFO  [CommonUtil] files[Ljava.io.File;@76ba13c 
+2020-02-26 14:04:38,599 ERROR [CommonSteps] logOut -->null 
+2020-02-26 14:56:13,846 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 14:56:13,872 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 14:56:13,872 INFO  [WebUtil] here 
+2020-02-26 14:56:13,872 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 14:56:13,872 INFO  [CommonUtil] device name set to : web 
+2020-02-26 14:56:13,872 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 14:56:13,872 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 14:56:13,872 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 14:56:13,872 INFO  [WebUtil] here1 
+2020-02-26 14:56:19,850 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 14:56:19,851 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 14:56:19,851 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 14:56:19,881 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 14:56:19,881 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 14:56:21,820 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 14:56:21,820 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 14:56:21,826 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 14:56:21,826 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 14:56:21,826 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 14:56:21,828 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 14:56:21,828 WARN  [CommonUtil] null not found in file. 
+2020-02-26 14:56:21,828 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 14:56:21,829 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 14:56:21,829 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 14:56:21,829 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 14:56:21,831 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 14:56:21,831 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 14:56:21,831 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 14:56:22,832 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 14:56:22,841 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 14:56:22,905 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 14:56:22,906 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 14:56:22,919 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 14:56:35,164 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 14:56:35,164 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 14:56:37,166 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 14:56:37,466 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 14:56:37,466 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 14:56:37,467 INFO  [CommonSteps] test5 
+2020-02-26 14:56:37,467 INFO  [CommonUtil] here 
+2020-02-26 14:56:37,467 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 14:56:37,467 INFO  [CommonUtil] files[Ljava.io.File;@52b56a3e 
+2020-02-26 14:56:37,468 ERROR [CommonSteps] logOut -->null 
+2020-02-26 15:05:18,492 INFO  [TvompowerPage] Start :: Launch moneyKey Application 
+2020-02-26 15:05:18,493 INFO  [WebUtil] initializeBrowser starts... 
+2020-02-26 15:05:18,493 INFO  [WebUtil] here 
+2020-02-26 15:05:18,493 INFO  [CommonUtil] set device & browser starts.. 
+2020-02-26 15:05:18,493 INFO  [CommonUtil] device name set to : web 
+2020-02-26 15:05:18,493 INFO  [CommonUtil] browser name set to : ch 
+2020-02-26 15:05:18,493 INFO  [CommonUtil] environment name set to : qa 
+2020-02-26 15:05:18,493 INFO  [CommonUtil] set device & browser ends.. 
+2020-02-26 15:05:18,493 INFO  [WebUtil] here1 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] Setting preferred language starts.. 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] Preferred language is English 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] Preferred Language set to English 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] Fetching preferred language ends.. 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] setORfileName starts.. 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] setting or filename as moneyKey_EN.ini 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] setORfileName ends.. 
+2020-02-26 15:05:23,983 INFO  [WebUtil] initializeBrowser ends... 
+2020-02-26 15:05:23,983 INFO  [CommonUtil] fetching value starts for [environment] >> qa 
+2020-02-26 15:05:24,000 INFO  [CommonUtil] fetching value ends for [environment] >> qa 
+2020-02-26 15:05:24,000 INFO  [WebUtil] launchBrowser starts... 
+2020-02-26 15:05:25,375 INFO  [WebUtil] launchBrowser ends... 
+2020-02-26 15:05:25,376 INFO  [TvompowerPage] End :: Launch moneyKey Application 
+2020-02-26 15:05:25,380 INFO  [CommonSteps] Start : User Clicks on createAccount 
+2020-02-26 15:05:25,381 INFO  [CommonUtil] Start retrieveLocator.. 
+2020-02-26 15:05:25,381 INFO  [CommonUtil] fetching value starts for [null] >> createAccountButton 
+2020-02-26 15:05:25,382 INFO  [CommonUtil] searching while ignoring case starts.. 
+2020-02-26 15:05:25,382 WARN  [CommonUtil] null not found in file. 
+2020-02-26 15:05:25,382 INFO  [CommonUtil] searching while ignoring case ends.. 
+2020-02-26 15:05:25,382 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-02-26 15:05:25,382 INFO  [CommonUtil] fetching value ends for [null] >> createAccountButton 
+2020-02-26 15:05:25,382 INFO  [CommonUtil] fetching value starts for [Common] >> createAccountButton 
+2020-02-26 15:05:25,384 INFO  [CommonUtil] fetching value ends for [Common] >> createAccountButton 
+2020-02-26 15:05:25,384 INFO  [CommonUtil] End retrieveLocator.. 
+2020-02-26 15:05:25,385 INFO  [CommonSteps] locator for click link=//*[@class="mpower-button button-red"] 
+2020-02-26 15:05:26,386 INFO  [CommonProcessor] JS Click starts.. 
+2020-02-26 15:05:26,386 INFO  [WebUtil] Getting all WebElements Starts.. 
+2020-02-26 15:05:26,423 INFO  [WebUtil] Getting all WebElements Ends.. 
+2020-02-26 15:05:26,424 INFO  [WebUtil] START :: Moving cursor to webelement 
+2020-02-26 15:05:26,437 INFO  [WebUtil] END :: Moving cursor to webelement 
+2020-02-26 15:05:39,897 INFO  [CommonProcessor] JS Click ends.. 
+2020-02-26 15:05:39,897 INFO  [CommonSteps] End : User Clicks on createAccount 
+2020-02-26 15:05:41,898 INFO  [CreateAccountPage] Start : Verify Login page loads|web 
+2020-02-26 15:05:42,198 INFO  [CreateAccountPage] 
+
+Current page will be considered as :: CreateAccount
+
+ 
+2020-02-26 15:05:42,198 INFO  [CreateAccountPage] End : Verify Login page loads|web 
+2020-02-26 15:05:42,199 INFO  [CommonSteps] test5 
+2020-02-26 15:05:42,199 INFO  [CommonUtil] here 
+2020-02-26 15:05:42,199 INFO  [CommonUtil] dirE:\TestAssignment-master\TestAssignment-master\TestAssignment\output 
+2020-02-26 15:05:42,200 INFO  [CommonUtil] files[Ljava.io.File;@52b56a3e 
+2020-02-26 15:05:42,200 ERROR [CommonSteps] logOut -->null 

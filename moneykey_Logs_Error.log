@@ -1,0 +1,14 @@
+2020-03-01 19:52:13,027 ERROR [CommonUtil] Null value found for [null] >> createAccountButton 
+2020-03-01 19:53:01,660 ERROR [CommonUtil] Null value found for [Common] >> signupMpowerButton 
+2020-03-01 19:53:08,919 ERROR [CommonUtil] Null value found for [Common] >> createButton 
+2020-03-01 19:53:42,515 ERROR [WebUtil] Could not locate. Please update OR file. Invalid locator : //*[@class="col-xs-offset-1 col-xs-10"] 
+2020-03-01 19:53:42,515 ERROR [CommonProcessor] Error occured during visibility check :: Element could not be located - Please update OR file. 
+2020-03-01 19:53:42,516 ERROR [CommonProcessor] 
+
+Element could not be located - Please update OR file.
+
+ 
+2020-03-01 19:53:42,516 ERROR [ChildAccount] Error details : Element could not be located - Please update OR file. 
+2020-03-01 19:54:15,432 ERROR [CommonUtil] Null value found for [ChildAccount] >> createAccountButton 
+2020-03-01 19:54:36,518 ERROR [CommonUtil] Null value found for [Common] >> signupMpowerButton 
+2020-03-01 19:54:43,769 ERROR [CommonUtil] Null value found for [Common] >> createButton 

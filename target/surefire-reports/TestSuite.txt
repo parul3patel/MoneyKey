@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 234.38 s <<< FAILURE! - in TestSuite
+feature(com.moneyKey.execute.ExecuteTest)  Time elapsed: 225.545 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.Throwable: ELEMENT COULD NOT BE LOCATED - PLEASE UPDATE OR FILE. ...[SCREENSHOT :: CHILDACCOUNT_1583110422516.PNG]
+Caused by: java.lang.Throwable: ELEMENT COULD NOT BE LOCATED - PLEASE UPDATE OR FILE. ...[SCREENSHOT :: CHILDACCOUNT_1583110422516.PNG]
+
+feature(com.moneyKey.execute.ExecuteTest)  Time elapsed: 6.206 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [successfully! deleted Records] but found [null]
+Caused by: java.lang.AssertionError: expected [successfully! deleted Records] but found [null]
+
